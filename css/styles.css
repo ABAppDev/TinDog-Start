@@ -51,7 +51,7 @@ h1 {
 
 #features {
     padding: 7% 15%;
-    height: auto;
+    height : auto;
 }
 
 .feature-item {
@@ -79,6 +79,7 @@ p {
     color : #ef8172;
     margin: 1rem;
 }
-.icon:hover{
+
+.icon:hover {
     color: Black;
 }
