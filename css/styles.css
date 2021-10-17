@@ -59,11 +59,6 @@ h1 {
     padding   : 5%;
 }
 
-h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size  : 1.5rem;
-    color      : black;
-}
 
 p {
     font-family: 'Montserrat-Bold', sans-serif;
@@ -82,4 +77,41 @@ p {
 
 .icon:hover {
     color: Black;
+}
+
+#testimonials {
+    padding   : 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size  : 1.5rem;
+    color      : black;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 2%;
 }
