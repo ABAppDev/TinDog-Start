@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -44,14 +44,18 @@ h1 {
 
 
 .iphone-img {
-    width      : 60%;
-    margin-left: 10px;
-    transform  : rotate(15deg);
+    width    : 60%;
+    position : absolute;
+    transform: rotate(15deg);
+    margin   : 5%;
+    margin-right: 30%;
 }
 
 #features {
-    padding: 7% 15%;
-    height : auto;
+    padding         : 7% 15%;
+    background-color: mistyrose;
+    position        : relative;
+    z-index         : 1;
 }
 
 .feature-item {
@@ -80,20 +84,21 @@ p {
 }
 
 #testimonials {
-    height: 80vh;
-    text-align: center;
+    height          : 80vh;
+    text-align      : center;
     background-color: #ef8172;
-    color: white;
+    color           : white;
 }
-.carousel-item{
-    padding   : 7% 15%;
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 
-h2{
-    font-family: 'Montserrat-Bold',sans-serif;
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size  : 2.25rem;
     line-height: 1.5;
 }
 
@@ -103,38 +108,40 @@ h3 {
     color      : black;
 }
 
-.testimonial-img{
-    width: 10%;
+.testimonial-img {
+    width        : 10%;
     border-radius: 100%;
-    margin: 20px;
+    margin       : 20px;
 }
 
-#press{
+#press {
     background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+    text-align      : center;
+    padding-bottom  : 3%;
 }
 
-.press-logo{
-    width: 15%;
+.press-logo {
+    width : 15%;
     margin: 2%;
 }
 
-#pricing{
-    padding: 5%;
+#pricing {
+    padding   : 5%;
     text-align: center;
-    }
-    
+}
 
-.pricing-title{
+
+.pricing-title {
     font-family: 'Montserrat-Bold', sans-serif;
     font-size  : 2.2rem;
     font-weight: bolder;
     line-height: 1.75;
 }
-.pricing-subtitle{
+
+.pricing-subtitle {
     font-family: 'Montserrat-Bold', sans-serif;
     font-size  : 1.8rem;
     font-weight: bold;
     line-height: 1.25;
 }
+
