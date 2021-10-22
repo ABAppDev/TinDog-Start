@@ -52,6 +52,7 @@ h1 {
 }
 
 #features {
+    height: 100vh;
     padding         : 7% 15%;
     background-color: mistyrose;
     position        : relative;
@@ -128,7 +129,9 @@ h3 {
 #pricing {
     padding   : 5%;
     text-align: center;
+    height: 100vh;
 }
+
 
 
 .pricing-title {
@@ -145,3 +148,11 @@ h3 {
     line-height: 1.25;
 }
 
+#cta{
+    height: 50vh;
+    text-align: center;
+}
+
+.h3{
+margin: 20%;
+}
