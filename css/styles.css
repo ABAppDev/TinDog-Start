@@ -116,7 +116,7 @@ p {
 
 
 #testimonials {
-    height          : 80vh;
+    height          : auto;
     text-align      : center;
     background-color: #ef8172;
     color           : white;
@@ -190,7 +190,8 @@ p {
     .iphone-img {
         position : static;
         transform: rotate(0deg);
-margin: 50px auto;    }
+        margin   : 50px auto;
+    }
 
     #title {
         text-align: center;
