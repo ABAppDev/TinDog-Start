@@ -189,8 +189,8 @@ p {
 @media(max-width:1028px) {
     .iphone-img {
         position : static;
-        transform: 0deg;
-    }
+        transform: rotate(0deg);
+margin: 50px auto;    }
 
     #title {
         text-align: center;
