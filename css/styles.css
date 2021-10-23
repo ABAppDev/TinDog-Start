@@ -182,17 +182,7 @@ p {
 
 
 
-@media(max-width:1028px) {
-    .iphone-img {
-        position : static;
-        transform: rotate(0deg);
-        margin   : 50px auto;
-    }
 
-    #title {
-        text-align: center;
-    }
-}
 
 #cta {
     background-color: #ff4c68;
